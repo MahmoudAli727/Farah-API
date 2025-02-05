@@ -1,0 +1,134 @@
+[
+  {
+    "GovernorateID": 3,
+    "Name": "الجيزة"
+  },
+  {
+    "GovernorateID": 28,
+    "Name": "أبو سمبل"
+  },
+  {
+    "GovernorateID": 22,
+    "Name": "أسوان"
+  },
+  {
+    "GovernorateID": 18,
+    "Name": "أسيوط"
+  },
+  {
+    "GovernorateID": 1,
+    "Name": "الإسكندرية"
+  },
+  {
+    "GovernorateID": 5,
+    "Name": "الإسماعيلية"
+  },
+  {
+    "GovernorateID": 21,
+    "Name": "الأقصر"
+  },
+  {
+    "GovernorateID": 34,
+    "Name": "البحر الأحمر"
+  },
+  {
+    "GovernorateID": 12,
+    "Name": "البحيرة"
+  },
+  {
+    "GovernorateID": 11,
+    "Name": "الدقهلية"
+  },
+  {
+    "GovernorateID": 27,
+    "Name": "شمال سيناء"
+  },
+  {
+    "GovernorateID": 25,
+    "Name": "الساحل الشمالي"
+  },
+  {
+    "GovernorateID": 30,
+    "Name": "السلوم"
+  },
+  {
+    "GovernorateID": 6,
+    "Name": "السويس"
+  },
+  {
+    "GovernorateID": 9,
+    "Name": "الشرقية"
+  },
+  {
+    "GovernorateID": 10,
+    "Name": "الغربية"
+  },
+  {
+    "GovernorateID": 15,
+    "Name": "الفيوم"
+  },
+  {
+    "GovernorateID": 2,
+    "Name": "القاهرة"
+  },
+  {
+    "GovernorateID": 7,
+    "Name": "القليوبية"
+  },
+  {
+    "GovernorateID": 8,
+    "Name": "المنوفية"
+  },
+  {
+    "GovernorateID": 17,
+    "Name": "المنيا"
+  },
+  {
+    "GovernorateID": 32,
+    "Name": "الواحات"
+  },
+  {
+    "GovernorateID": 26,
+    "Name": "الوادي الجديد"
+  },
+  {
+    "GovernorateID": 16,
+    "Name": "بني سويف"
+  },
+  {
+    "GovernorateID": 4,
+    "Name": "بور سعيد"
+  },
+  {
+    "GovernorateID": 24,
+    "Name": "جنوب سيناء"
+  },
+  {
+    "GovernorateID": 31,
+    "Name": "حلايب وشلاتين"
+  },
+  {
+    "GovernorateID": 13,
+    "Name": "دمياط"
+  },
+  {
+    "GovernorateID": 19,
+    "Name": "سوهاج"
+  },
+  {
+    "GovernorateID": 20,
+    "Name": "قنا"
+  },
+  {
+    "GovernorateID": 14,
+    "Name": "كفر الشيخ"
+  },
+  {
+    "GovernorateID": 29,
+    "Name": "مرسى علم"
+  },
+  {
+    "GovernorateID": 33,
+    "Name": "مطروح"
+  }
+]
