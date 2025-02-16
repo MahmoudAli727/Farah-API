@@ -7,13 +7,11 @@
         {
             code = "";
         }
+		private static readonly Random _random = new Random();
 
-        public static string GetCode()
+		public static string GetCode()
         {
-            Random random = new Random();
-            code = random.Next(100000, 1000000).ToString();
-
-            return code;
-        }
-    }
+			return _random.Next(0, 1000000).ToString("D6");
+		}
+	}
 }

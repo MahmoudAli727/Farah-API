@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vip\\source\\repos\\Farah API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|c:\\users\\vip\\source\\repos\\farah api\\application\\dtos\\addshopdressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|solutionrelative:application\\dtos\\addshopdressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA5BE5B-1360-4B49-A51F-5D6D24E550EE}|Core\\Core.csproj|c:\\users\\vip\\source\\repos\\farah api\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BA5BE5B-1360-4B49-A51F-5D6D24E550EE}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|C:\\Users\\vip\\source\\repos\\Farah API\\application\\dtos\\addhalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|solutionrelative:application\\dtos\\addhalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|C:\\Users\\vip\\source\\repos\\Farah API\\application\\dtos\\addcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|solutionrelative:application\\dtos\\addcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA5BE5B-1360-4B49-A51F-5D6D24E550EE}|Core\\Core.csproj|C:\\Users\\vip\\source\\repos\\Farah API\\core\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA5BE5B-1360-4B49-A51F-5D6D24E550EE}|Core\\Core.csproj|solutionrelative:core\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Core",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Core\\Core.csproj",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Core\\Core.csproj",
+              "RelativeToolTip": "Core\\Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-15T12:09:51.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddShopDressDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\DTOS\\AddShopDressDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\AddShopDressDTO.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\DTOS\\AddShopDressDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\AddShopDressDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T13:17:03.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddHallDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\DTOS\\AddHallDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\AddHallDTO.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\DTOS\\AddHallDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\AddHallDTO.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T13:15:20.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\DTOS\\AddCarDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOS\\AddCarDTO.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\DTOS\\AddCarDTO.cs",
+              "RelativeToolTip": "Application\\DTOS\\AddCarDTO.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA9wBMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T13:14:07.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Core\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Car.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Core\\Entities\\Car.cs",
+              "RelativeToolTip": "Core\\Entities\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T13:13:53.38Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
