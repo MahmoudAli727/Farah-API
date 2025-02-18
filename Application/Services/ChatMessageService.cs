@@ -36,7 +36,7 @@ namespace Application.Services
                 return new CustomResponseDTO<List<AllChatsDTO>>
                 {
                     Data = paginatedList.Items,
-                    Message = "تمااااااااااام",
+                    Message = "تم",
                     Succeeded = true,
                     PaginationInfo = paginationInfo
                 };
@@ -47,7 +47,7 @@ namespace Application.Services
                 return new CustomResponseDTO<List<AllChatsDTO>>
                 {
                     Data = null,
-                    Message = $"ايرور يا معلم ابلع: {ex.Message}",
+                    Message = $"Error : {ex.Message}",
                     Succeeded = false,
                     Errors = new List<string> { ex.Message }
                 };
@@ -101,7 +101,7 @@ namespace Application.Services
             }
             catch (Exception ex)
             {
-                throw new Exception($"ابلع ايروووووووووووور: {ex.Message}");
+                throw new Exception($"Error: {ex.Message}");
             }
         }
 
@@ -144,7 +144,7 @@ namespace Application.Services
 
             if (customer is not Customer || owner is not Owner)
             {
-                throw new Exception("IDS فيها حاجه غلط ");
+                throw new Exception("IDS are wrong ");
             }
 
             if (chat == null)
