@@ -75,22 +75,32 @@ namespace Application.Services
 
 
 
-        public CustomResponseDTO<List<BeautyCenterDTO>> GetBeautyCenterByName(string name)
-        {
-            var beautyCenters = _beautyRepository.GetBeautyCenterByName(name);
-            var beautyCenterDTOs = _mapper.Map<List<BeautyCenterDTO>>(beautyCenters);
+		public CustomResponseDTO<List<BeautyCenterDTO>> GetBeautyCenterByName(string name)
+		{
+			var beautyCenters = _beautyRepository.GetBeautyCenterByName(name);
 
-            var response = new CustomResponseDTO<List<BeautyCenterDTO>>
-            {
-                Data = beautyCenterDTOs,
-                Message = "تم جلب مركز التجميل بنجاح",
-                Succeeded = true,
-                Errors = null,
-                PaginationInfo = null
-            };
+			if (beautyCenters == null || !beautyCenters.Any())
+			{
+				return new CustomResponseDTO<List<BeautyCenterDTO>>
+				{
+					Data = null,
+					Message = "لم يتم العثور على أي مركز تجميل بهذا الاسم",
+					Succeeded = false,
+					Errors = new List<string> { "لم يتم العثور على بيانات" },
+					PaginationInfo = null
+				};
+			}
 
-            return response;
-        }
+			var beautyCenterDTOs = _mapper.Map<List<BeautyCenterDTO>>(beautyCenters);
+
+			return new CustomResponseDTO<List<BeautyCenterDTO>>
+			{
+				Data = beautyCenterDTOs,
+				Message = "تم جلب مراكز التجميل بنجاح",
+				Succeeded = true
+			};
+		}
+
 
 
 		public CustomResponseDTO<BeautyCenterDTO> GetBeautyCenterById(int id)
