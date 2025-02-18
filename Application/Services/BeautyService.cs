@@ -93,31 +93,36 @@ namespace Application.Services
         }
 
 
+		public CustomResponseDTO<BeautyCenterDTO> GetBeautyCenterById(int id)
+		{
+			var beautyCenter = _beautyRepository.GetServiceById(id);
 
-        public CustomResponseDTO<BeautyCenterDTO> GetBeautyCenterById(int id)
-        {
-            var beautyCenter = _beautyRepository.GetServiceById(id);
+			if (beautyCenter == null)
+			{
+				return new CustomResponseDTO<BeautyCenterDTO>
+				{
+					Data = null,
+					Message = "مركز التجميل غير موجود",
+					Succeeded = false,
+					Errors = new List<string> { "لم يتم العثور على مركز التجميل" },
+					PaginationInfo = null
+				};
+			}
 
-            var beautyCenterDTO = _mapper.Map<BeautyCenterDTO>(beautyCenter);
+			var beautyCenterDTO = _mapper.Map<BeautyCenterDTO>(beautyCenter);
+			beautyCenterDTO.IsFavorite = beautyCenter.FavoriteServices.Any();
 
-            if (beautyCenter.FavoriteServices.Count == 0)
-                beautyCenterDTO.IsFavorite = false;
-            else
-                beautyCenterDTO.IsFavorite = true;
+			return new CustomResponseDTO<BeautyCenterDTO>
+			{
+				Data = beautyCenterDTO,
+				Message = "تم جلب مركز التجميل بنجاح",
+				Succeeded = true,
+				Errors = null,
+				PaginationInfo = null
+			};
+		}
 
-            var response = new CustomResponseDTO<BeautyCenterDTO>
-            {
-                Data = beautyCenterDTO,
-                Message = "تم جلب مركز التجميل بنجاح",
-                Succeeded = true,
-                Errors = null,
-                PaginationInfo = null
-            };
-
-            return response;
-        }
-
-        public async Task<CustomResponseDTO<BeautyCenterDTO>> AddBeautyCenter(AddBeautyCenterDTO beautyCenterDTO)
+		public async Task<CustomResponseDTO<BeautyCenterDTO>> AddBeautyCenter(AddBeautyCenterDTO beautyCenterDTO)
         {
             try
             {
