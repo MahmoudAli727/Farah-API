@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\vip\\source\\repos\\Farah API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|c:\\users\\vip\\source\\repos\\farah api\\application\\dtos\\addshopdressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|solutionrelative:application\\dtos\\addshopdressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3A28D62-2F78-4532-AFBB-0D23F23D30B3}|Infrastructure\\Infrastructure.csproj|c:\\users\\vip\\source\\repos\\farah api\\infrastructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A28D62-2F78-4532-AFBB-0D23F23D30B3}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BA5BE5B-1360-4B49-A51F-5D6D24E550EE}|Core\\Core.csproj|c:\\users\\vip\\source\\repos\\farah api\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|c:\\users\\vip\\source\\repos\\farah api\\application\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|c:\\users\\vip\\source\\repos\\farah api\\application\\services\\hallservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|solutionrelative:application\\services\\hallservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB95E6F4-8251-49FF-9AEF-79D36D59109D}|Presentation\\Presentation.csproj|c:\\users\\vip\\source\\repos\\farah api\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB95E6F4-8251-49FF-9AEF-79D36D59109D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|C:\\Users\\vip\\source\\repos\\Farah API\\application\\helpers\\generaterandomcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|solutionrelative:application\\helpers\\generaterandomcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|C:\\Users\\vip\\source\\repos\\Farah API\\application\\interfaces\\ishopdressesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ishopdressesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA5BE5B-1360-4B49-A51F-5D6D24E550EE}|Core\\Core.csproj|C:\\Users\\vip\\source\\repos\\Farah API\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8BA5BE5B-1360-4B49-A51F-5D6D24E550EE}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|C:\\Users\\vip\\source\\repos\\Farah API\\application\\dtos\\addshopdressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|solutionrelative:application\\dtos\\addshopdressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98005E89-370F-4D98-878D-CE7880056B50}|Application\\Application.csproj|C:\\Users\\vip\\source\\repos\\Farah API\\application\\dtos\\addhalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,8 +54,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Infrastructure\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Infrastructure\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\AccountRepository.cs",
+              "ViewState": "AQIAAHYBAAAAAAAAAAAmwIsBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:58:39.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\Interfaces\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\Interfaces\\IAccountRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAccountRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:55:29.711Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
@@ -70,20 +120,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Core",
+              "DocumentIndex": 2,
+              "Title": "HallService.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\Services\\HallService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\HallService.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\Services\\HallService.cs",
+              "RelativeToolTip": "Application\\Services\\HallService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:54:55.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAewGIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:42:02.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenerateRandomCode.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\Helpers\\GenerateRandomCode.cs",
+              "RelativeDocumentMoniker": "Application\\Helpers\\GenerateRandomCode.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\Helpers\\GenerateRandomCode.cs",
+              "RelativeToolTip": "Application\\Helpers\\GenerateRandomCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T12:33:41.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IShopDressesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\Interfaces\\IShopDressesRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IShopDressesRepository.cs",
+              "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\Interfaces\\IShopDressesRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IShopDressesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T12:28:18.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Core.csproj",
               "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Core\\Core.csproj",
               "RelativeDocumentMoniker": "Core\\Core.csproj",
               "ToolTip": "C:\\Users\\vip\\source\\repos\\Farah API\\Core\\Core.csproj",
               "RelativeToolTip": "Core\\Core.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-15T12:09:51.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T12:09:51.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "AddShopDressDTO.cs",
               "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\DTOS\\AddShopDressDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOS\\AddShopDressDTO.cs",
@@ -91,12 +190,11 @@
               "RelativeToolTip": "Application\\DTOS\\AddShopDressDTO.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T13:17:03.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T13:17:03.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "AddHallDTO.cs",
               "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\DTOS\\AddHallDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOS\\AddHallDTO.cs",
@@ -108,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "AddCarDTO.cs",
               "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Application\\DTOS\\AddCarDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOS\\AddCarDTO.cs",
@@ -120,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\vip\\source\\repos\\Farah API\\Core\\Entities\\Car.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Car.cs",

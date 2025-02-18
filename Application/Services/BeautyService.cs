@@ -54,11 +54,6 @@ namespace Application.Services
                 };
             }
 
-            if (cityId > 0)
-            {
-                beautyCenters = beautyCenters.Where(p => p.City == cityId);
-            }
-
             var BeautyCenters = paginatedList.Items.Select(beauty =>
             {
                 var beautyDto = _mapper.Map<BeautyCenterDTO>(beauty);
@@ -70,7 +65,7 @@ namespace Application.Services
             var response = new CustomResponseDTO<List<BeautyCenterDTO>>
             {
                 Data = BeautyCenters,
-                Message = "عـــــــــاش  الله ينور",
+                Message = "تم جلب مراكز التجميل بنجاح",
                 Succeeded = true,
                 Errors = null,
                 PaginationInfo = paginationInfo
@@ -88,7 +83,7 @@ namespace Application.Services
             var response = new CustomResponseDTO<List<BeautyCenterDTO>>
             {
                 Data = beautyCenterDTOs,
-                Message = "عـــــــــاش  الله ينور",
+                Message = "تم جلب مركز التجميل بنجاح",
                 Succeeded = true,
                 Errors = null,
                 PaginationInfo = null
@@ -113,7 +108,7 @@ namespace Application.Services
             var response = new CustomResponseDTO<BeautyCenterDTO>
             {
                 Data = beautyCenterDTO,
-                Message = "عـــــــــاش  الله ينور",
+                Message = "تم جلب مركز التجميل بنجاح",
                 Succeeded = true,
                 Errors = null,
                 PaginationInfo = null
