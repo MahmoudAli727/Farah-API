@@ -336,38 +336,49 @@ namespace Application.Services
             }
         }
 
-        public CustomResponseDTO<ServiceForBeautyCenterDTO> RemoveBeautyService(int beautyID, int ServiceID)
-        {
-            try
-            {
-                ServiceForBeautyCenter serviceForBeautyCenter = _beautyRepository.GetBeautyService(beautyID, ServiceID);
+		public CustomResponseDTO<ServiceForBeautyCenterDTO> RemoveBeautyService(int beautyID, int ServiceID)
+		{
+			try
+			{
+				ServiceForBeautyCenter serviceForBeautyCenter = _beautyRepository.GetBeautyService(beautyID, ServiceID);
+                
+				if (serviceForBeautyCenter == null)
+				{
+					return new CustomResponseDTO<ServiceForBeautyCenterDTO>
+					{
+						Data = null,
+						Message = "الخدمة غير موجودة",
+						Succeeded = false,
+						Errors = new List<string> { "لم يتم العثور على الخدمة المطلوبة" }
+					};
+				}
 
-                _beautyRepository.RemoveService(serviceForBeautyCenter);
-                _beautyRepository.Save();
-                var service = _mapper.Map<ServiceForBeautyCenterDTO>(serviceForBeautyCenter);
+				_beautyRepository.RemoveService(serviceForBeautyCenter);
+				_beautyRepository.Save();
 
-                return new CustomResponseDTO<ServiceForBeautyCenterDTO>()
-                {
-                    Data = service,
-                    Message = "تم حذف الخدمه بنجاح",
-                    Succeeded = true,
-                    Errors = null,
-                    PaginationInfo = null
-                };
-            }
-            catch (Exception ex)
-            {
-                var errorResponse = new CustomResponseDTO<ServiceForBeautyCenterDTO>
-                {
-                    Data = null,
-                    Message = "حدث خطأ اثناء حذف الخدمه",
-                    Succeeded = false,
-                    Errors = new List<string> { ex.Message }
-                };
-                return errorResponse;
-            }
-        }
-    }
+				var serviceDTO = _mapper.Map<ServiceForBeautyCenterDTO>(serviceForBeautyCenter);
+
+				return new CustomResponseDTO<ServiceForBeautyCenterDTO>
+				{
+					Data = serviceDTO,
+					Message = "تم حذف الخدمة بنجاح",
+					Succeeded = true,
+					Errors = null
+				};
+			}
+			catch (Exception ex)
+			{
+				return new CustomResponseDTO<ServiceForBeautyCenterDTO>
+				{
+					Data = null,
+					Message = "حدث خطأ أثناء حذف الخدمة",
+					Succeeded = false,
+					Errors = new List<string> { ex.Message }
+				};
+			}
+		}
+
+	}
 }
 
 
